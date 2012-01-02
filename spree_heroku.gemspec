@@ -3,8 +3,8 @@ Gem::Specification.new do |s|
   s.name        = 'spree_heroku'
   s.version     = '1.0.0'
   s.summary     = 'This is an extension for Spree, allowing the e-commerce system to run on Heroku.'
-  s.description = 'This is an update of http://github.com/RSpace/spree-heroku that works with Rails >= 3.0.3 and Spree >= 0.40.0'
-  s.required_ruby_version = '>= 1.8.7'
+  s.description = 'This is an update of http://github.com/RSpace/spree-heroku that works with Rails >= 3.0.3 and Spree >= 0.90.0'
+  s.required_ruby_version = '>= 1.9.2'
   s.author            = 'Amed Rodriguez'
   s.email             = 'amed@tractical.com'
   s.homepage          = 'http://tractical.com'
@@ -16,5 +16,5 @@ Gem::Specification.new do |s|
 
   s.has_rdoc = true
 
-  s.add_dependency('spree_core', '>= 0.50.0')
+  s.add_dependency('spree_core', '>= 0.90.0')
 end
